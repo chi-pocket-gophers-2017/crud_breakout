@@ -1,0 +1,5 @@
+Cupcake.create!(flavor: "vanilla", filling: false, gluten_free: false)
+Cupcake.create!(flavor: "chocolate", filling: false, gluten_free: true)
+Cupcake.create!(flavor: "banana", filling: true, gluten_free: false)
+Cupcake.create!(flavor: "red velvet", filling: true, gluten_free: false)
+Cupcake.create!(flavor: "cheesecake", filling: false, gluten_free: false)

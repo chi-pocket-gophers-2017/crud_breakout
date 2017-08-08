@@ -1,0 +1,10 @@
+<h1>Create Cupcake</h1>
+
+<% if @errors %>
+  <%= erb :_errors, locals: {object_errors: @errors}%>
+<% end %>
+
+<form method="POST" action="/cupcakes">
+  <input type="text" name="cupcake[flavor]" placeholder="flavor">
+  <input type="submit">
+</form>

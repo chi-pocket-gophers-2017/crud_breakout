@@ -1,0 +1,10 @@
+<h1>Cupcakes</h1>
+
+<ul>
+<% @cupcakes.each do |cupcake| %>
+  <li><a href="/cupcakes/<%= cupcake.id %>"><%= cupcake.flavor %></a></li>
+<% end %>
+</ul>
+
+
+<a href="/cupcakes/new">Create Cupcake</a>
